@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +48,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +63,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.links{
+	width: 75%;
+	display: inline-block;
+}
+
+.links a{
+	margin: 0 3%;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo{
+	width: 24%;
+	display: inline-block;
+}
+
+.titlesection div{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5%;
+}
+
+.title{
+	text-align: center;
+	padding-bottom: 5%;
+	height: 100%;
+	width: 40%;
+}
+
+.InnovationOnDemand{
+	width: 100%;
+	display: inline-block;
+}
+
+h1{
+	font-size: 70px;
+}
+
+button{
+	font-size: 110%;
+	width: 110%;
+	padding: 1% 15%;
+}
+
+.circle{
+	margin-left: 1%;
+	width: 40%;
+}
+
+.featuresAbout{
+	margin: 5%;
+}
+
+.featuresAbout div{
+	width: 45%;
+	display: inline-block;
+}
+
+.About{
+	margin-left: 8%;
+}
+
+.middle-img{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.servicesProductVision{
+	width: 90%;
+	margin: 5%;
+}
+
+.servicesProductVision div{
+	width: 28%;
+	display: inline-block;
+}
+
+.Services{
+	margin-right: 7%;
+}
+
+.Product{
+	margin-right: 7%;
+}
+
+.contact{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.contact p{
+	margin-top: 2%;
+}
+
+footer{
+	margin: 5%;
+	text-align: center;
+}
